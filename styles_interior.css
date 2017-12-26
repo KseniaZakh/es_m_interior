@@ -1,0 +1,170 @@
+  /* body {
+    margin-top: 0 !important;
+  } */
+
+  section {
+    position: relative;
+    width: 735px;
+    margin: 0 auto !important;
+    left: -25px;
+    background: #ecf0f4;
+    color: #667799;
+    font: 400 14px/22px 'Roboto', Arial, sans-serif !important;
+  }
+
+    section > img {
+      width: 100%;
+    }
+
+    .content {
+      width: 100%;
+      padding: 0 30px 15px;
+      box-sizing: border-box;
+    }
+
+    .preamble {
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    h5 {
+    font: 300 20px/18px 'Roboto', Arial, sans-serif !important;
+  }
+
+  .style_examples {
+    width: 100%;
+    padding-left: 0 !important;
+  }
+
+  .style_examples > li {
+    display: inline-block;
+    width: calc((100% - 2em)/3);
+  }
+
+  .style_examples > li:not(:last-child) {
+    margin-right: 1em;
+  }
+
+  .style_examples > li > img {
+    width: 100%;
+  }
+
+  .style_examples > li > p {
+    text-align: center;
+  }
+
+  .color_examples {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style: none;
+    margin-bottom: 1em;
+  }
+
+  .color_examples > img {
+    width: calc((100% - 2em) / 3);
+  }
+
+  .color_examples > img:nth-child(1),
+  .color_examples > img:nth-child(2),
+  .color_examples > img:nth-child(3) {
+    margin-bottom: 1em;
+  }
+
+  .color_examples > img:nth-child(3n + 1),
+  .color_examples > img:nth-child(3n + 2) {
+      margin-right: 1em;
+    }
+
+  .furniture_img {
+    display: block;
+    margin: 2em auto;
+  }
+
+  .furniture_img + p {
+    margin-bottom: 5.5em;
+  }
+
+  .blockquote {
+    position: relative;
+    font-weight: 600 !important;
+    text-align: center;
+    color: #667799;
+    width: 100%;
+    padding: 34px 24px 24px;
+    border: 1px solid #6b7696;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .blockquote:before {
+    content: "";
+  	display: inline-block;
+  	margin: auto;
+  	background: url('alert-foto.png') no-repeat, #ecf0f4;
+    width: 60px;
+    height: 54px;
+    position: absolute;
+    left: 307px;
+    top: -38px;
+    z-index: 3;
+  }
+
+  .pattern_examples {
+    list-style: none;
+    width: 100%;
+    padding-left: 0 !important;
+    margin: 2em 0;
+  }
+
+  .pattern_examples > li {
+    width: inherit;
+    height: 148px;
+  }
+
+  .pattern_examples > li:not(:last-child) {
+    border-bottom: 5px solid #667799;
+  }
+
+  .pattern_examples > li:first-child {
+    background: url('example-parquet.jpg') no-repeat, #78523f;
+    color: #ffffff;
+  }
+
+  .pattern_examples > li:nth-child(2) {
+    background: url('example-walls.jpg') no-repeat, #ceb9a0;
+    color: #403b32;
+  }
+
+  .pattern_examples > li:nth-child(3) {
+    background: url('example-sofa.jpg') no-repeat, #625250;
+    color: #ffffff;
+  }
+
+  .pattern_examples > li:last-child {
+    background: url('example-curtains.jpg') no-repeat, #d1d1d3;
+    color: #403b32;
+  }
+
+  .pattern_examples > li > b {
+    font-size: 18px;
+    padding-top: 25px;
+  }
+
+  .pattern_examples > li > span {
+    padding-top: 9px;
+  }
+
+  .pattern_examples > li > b,
+  .pattern_examples > li > span {
+    display: block;
+    padding-left: 30px;
+  }
+
+    .accessories {
+      display: flex;
+      width: 100%;
+      margin-top: -2em;
+      margin-bottom: 4em;
+  }
