@@ -1,8 +1,4 @@
-  /* body {
-    margin-top: 0 !important;
-  } */
-
-  main {
+  .base {
     position: relative;
     width: 735px;
     margin: 0 auto !important;
@@ -12,8 +8,8 @@
     font: 400 14px/22px 'Roboto', Arial, sans-serif !important;
   }
 
-    main > img {
-      width: 100%;
+	.base > img {
+			width: 100%;
     }
 
     .content {
@@ -64,7 +60,7 @@
     flex-wrap: wrap;
     width: 100%;
     list-style: none;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
   }
 
   .color_examples > img {
